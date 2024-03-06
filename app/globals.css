@@ -1,0 +1,32 @@
+:root {
+    --bg: white;
+    /* Change to white for background */
+    --bgSoft: #e5e5e5;
+    /* You can choose a light gray for soft background */
+    --text: black;
+    /* Change to black for text */
+    --textSoft: #404040;
+    /* You can choose a dark gray for soft text */
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}

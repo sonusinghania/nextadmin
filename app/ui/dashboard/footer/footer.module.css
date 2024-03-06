@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    color: var(--textSoft);
+}
+
+
+.logo {
+    font-weight: bold;
+    /* position: absolute;
+    bottom: 0; */
+}
+
+.text {
+    font-size: 12px;
+    cursor: pointer;
+    position: absolute;
+    bottom: -260px;
+}
